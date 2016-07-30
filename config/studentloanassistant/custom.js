@@ -1,0 +1,1 @@
+console.log('StudentLoanAssistant custom js loaded');

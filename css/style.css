@@ -1,0 +1,694 @@
+/* a:hover default color:#23527c; */
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.jumbotron {
+    background: rgba(245, 245, 245, 1);
+    background: -moz-linear-gradient(top, rgba(245, 245, 245, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245, 245, 245, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+    background: -webkit-linear-gradient(top, rgba(245, 245, 245, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -o-linear-gradient(top, rgba(245, 245, 245, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(245, 245, 245, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(245, 245, 245, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00c8c8', endColorstr='#ffffff', GradientType=0);
+}
+
+a,
+a:hover,
+#slider-list li {
+    color: #004062;
+}
+
+a:hover,
+a:active,
+a:focus,
+a:visited {
+    text-decoration: none;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #004062;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+    border: none;
+    margin-bottom: 0;
+}
+
+.navbar .container {
+    height: 50px;
+    padding: 0 10px;
+}
+
+.navbar-brand {
+    height: auto;
+    font-size: 24px;
+    padding: 0px 15px;
+    line-height: 50px;
+    color: #fff !important;
+}
+
+.navbar-brand img {
+    height: 30px;
+    margin-top: 8px;
+}
+
+.navbar-brand span {
+    display: none;
+}
+
+.navbar-right {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.navbar-right .phone-span {
+    color: #fad46b;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.navbar-right a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 48px;
+    color: #fff;
+    position: relative;
+    top: 6px;
+}
+
+.navbar-right a:hover {
+    text-decoration: none;
+}
+
+.slider-headline {
+    padding: 0;
+    margin: 20px 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #BD2132;
+    text-transform: uppercase;
+}
+
+.slider-headline span {
+    text-transform: uppercase;
+    color: #004062;
+}
+
+#slider-list {
+    float: right;
+    width: 100%;
+}
+
+#slider-list li {
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 30px;
+    padding-left: 50px;
+    margin: 10px 0;
+    display: none;
+}
+
+#slider1,
+#slider2,
+#slider3 {
+    background-color: #fff;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: none;
+    height: 522px;
+    position: absolute;
+    top: 10px;
+    width: 252px;
+}
+
+#slider1 {
+    background-image: url("../img/slide01.jpg");
+}
+
+.jumbotron {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    padding-top: 49px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+#form-holder {
+    float: right;
+    position: relative;
+    padding: 0;
+    width: 100%;
+}
+
+#form-title {
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+#form-sub-title {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.form-control {
+    border: 1px solid #004062;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border: 1px solid #00c8c8;
+}
+
+.btn,
+.form-control,
+#submit-form {
+    border-radius: 0;
+}
+
+#disclaimer-div,
+#submit-section {
+    margin-top: 5px;
+}
+
+#submit-section,
+#form-title,
+#form-sub-title {
+    text-align: center;
+}
+
+#home-header-left {
+    float: left;
+    padding: 0 20px 0 10px;
+    position: relative;
+    text-align: right;
+    top: 40px;
+}
+
+#submit-form {
+    background-color: #bd2132;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 0;
+    padding: 12px 16px;
+    text-transform: uppercase;
+}
+
+#student-form {
+    height: 100%;
+}
+
+#form-fields {
+    padding: 10px 0 0;
+}
+
+.form-group,
+.form-group .col-sm-6 {
+    margin-bottom: 10px;
+}
+
+.label {
+    color: #333;
+    font-weight: normal;
+    font-size: 15px;
+    width: 100%;
+    display: block;
+    padding: 0 0 0 5px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.slider-headline {
+    padding-left: 50px;
+}
+
+footer {
+    margin: 50px 0px 30px;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #777;
+}
+
+.blog-container .row {
+    margin: 0 0 30px 0;
+}
+
+.blog-container h2 {
+    color: #004062;
+    font-size: 23px;
+}
+
+.blog-container h2 a {
+    float: right;
+    position: relative;
+    bottom: 5px;
+}
+
+.blog-container .btn-default {
+    background-color: #004062;
+    color: #fff;
+    margin-top: 1px;
+}
+
+.blog-container .btn-default:hover {
+    background-color: #f05f40;
+}
+
+#blog-content-single {
+    display: none;
+}
+
+#blog-content-single .blog-container {
+    display: none;
+}
+
+#blog-content-holder {
+    background-color: #BD2132;
+    padding-top: 60px;
+}
+
+#blog-content-holder h2 {
+    cursor: pointer;
+}
+
+#disclaimer,
+#disclaimer-mobile {
+    padding: 0 15px 15px 15px;
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+
+#disclaimer-div-mobile {
+    display: none;
+}
+
+.navbar-header {
+    float: left;
+    position: relative;
+    top: 5px;
+}
+
+#logo-txt {
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    width: 210px;
+}
+
+.navbar-collapse {
+    border: none;
+    float: right;
+}
+
+.glyphicon-earphone {
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+#lookingfor {
+    padding: 10px 20px;
+}
+
+
+/* validation*/
+
+.error {
+    border: 1px solid #fa4860 !important;
+}
+
+
+/* privacy, terms, contact, partners, ty */
+
+.privacy-terms {
+    padding: 50px 20px;
+}
+
+.privacy-terms p,
+.privacy-terms ul {
+    font-size: 12px;
+}
+
+.privacy-terms h1 {
+    font-size: 30px;
+}
+
+.privacy-terms h3 {
+    font-size: 20px;
+}
+
+#home-header-left-mobile {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.slider-headline-mobile {
+    color: #004062;
+    font-size: 12px;
+    padding: 0 5px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.slider-headline-mobile-small {
+    padding: 0;
+    font-size: 10px;
+    width: 102%;
+    position: relative;
+    right: 2px;
+}
+
+#partners {
+    font-size: 15px;
+}
+
+#thank-you-big {
+    font-size: 19px;
+}
+
+#thank-you-small {
+    font-size: 14px;
+}
+
+#thank-you h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#ty-slider {
+    position: relative;
+    top: 70px;
+}
+
+#logo-txt-mobile {
+    display: none;
+}
+
+#contact-info {
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    #logo-txt {
+        display: none;
+    }
+    #logo-txt-mobile {
+        display: block;
+        padding: 0;
+        font-size: 22px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+    #logo-img {
+        padding-right: 0;
+    }
+    .navbar-right a {
+        font-size: 24px;
+        top: 2px;
+    }
+    .slider-headline {
+        padding-left: 0;
+    }
+    #form-holder {
+        background-color: #fad46b;
+    }
+    #student-form {
+        padding-top: 10px;
+    }
+    #blog-content-holder {
+        position: relative;
+        top: -20px;
+    }
+    #blog-content-holder p {
+        color: #fff;
+        font-size: 10px;
+    }
+    footer {
+        margin: 5px 0 30px;
+    }
+    #disclaimer-div {
+        display: none;
+    }
+    #disclaimer-div-mobile {
+        display: block;
+    }
+    #form-fields {
+        padding: 10px 0;
+    }
+    #footer span {
+        display: block;
+        font-size: 12px;
+        text-align: center;
+        padding: 0 20px;
+        margin-top: 10px;
+    }    
+}
+
+@media (min-width: 768px) {
+    .navbar,
+    .navbar .container {
+        height: 70px;
+    }
+    .navbar-container {
+        padding: 0 15px;
+    }
+    .navbar-right {
+        padding-right: 0;
+    }
+    .navbar-right a {
+        font-size: 27px;
+        line-height: 34px;
+    }
+    .glyphicon-earphone {
+        font-size: 20px;
+    }
+    .navbar-right .phone-span {
+        font-size: 15px;
+        position: relative;
+        top: 5px;
+    }
+    .navbar-brand img {
+        height: 50px;
+        display: inline-block;
+        margin-top: 0px;
+    }
+    #form-holder {
+        display: none;
+        background-color: #FAD46B;
+        -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.2);
+        -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.2);
+        box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.2);
+        height: 510px;
+        width: 41.66666667%;
+    }
+    #home-header-left {
+        height: 400px;
+    }
+    #student-form {
+        display: none;
+        position: absolute;
+    }
+    .jumbotron {
+        height: 532px;
+        padding-top: 69px;
+    }
+    #slider-list li .glyphicon {
+        margin-right: 15px;
+        position: relative;
+        top: 2px;
+    }
+    .slider-headline {
+        float: right;
+        font-size: 31px;
+        line-height: 30px;
+        text-align: right;
+        width: 60%;
+    }
+    .form-group .col-sm-6 {
+        margin-bottom: 0;
+    }
+    #form-title,
+    #form-sub-title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #004062;
+    }
+    #form-sub-title {
+        font-size: 17px;
+        font-weight: 400;
+        color: #bd2132;
+    }
+    #form-title {
+        font-size: 27px;
+    }
+    #submit-form {
+        padding: 15px 20px;        
+    }
+    .navbar-brand span {
+        color: #00c8c8;
+        display: inline-block;
+        font-size: 26px;
+        position: relative;
+        top: 14px;
+    }
+    .privacy-terms {
+        padding: 75px 20px 20px;
+    }
+    #partners {
+        font-size: 18px;
+    }
+    footer {
+        margin: 50px 0px 30px;
+    }
+    .post-img {
+        width: 33%;
+        float: left;
+        margin: 5px 15px 5px 5px;
+    }
+    .blog-container p {
+        color: #fff;
+        font-size: 12px;
+        margin: 0 0 5px;
+        text-align: justify;
+    }
+    #blog-content-holder {
+        padding-top: 40px;
+    }
+    #ty-slider img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #form-holder,
+    #home-header-left {
+        height: 530px;
+        width: 50%;
+    }
+    .jumbotron,
+    #slider1 {
+        height: 570px;
+    }
+    #slider1 {
+        display: none;
+    }
+    #slider-list {
+        padding-bottom: 9px;
+    }
+    .slider-headline span {
+        text-shadow: none;
+    }
+    .slider-headline,
+    #slider-list li {
+        width: auto;
+        font-size: 23px;
+        padding-left: 30px;
+    }
+    #slider-list li {
+        font-size: 20px !important;
+    }
+    #blog-content-holder .col-md-6 {
+        float: left;
+        clear: left;
+    }
+    #blog-content-holder .btn-default {
+        float: right;
+    }
+    #submit-section .form-group {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .label {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+    }
+    .more-button {
+        margin-left: 5px;
+    }
+    #slider1,
+    #slider2,
+    #slider3 {
+        background-position: right -350px top;
+    }
+    .slider-headline,
+    #slider-list li {
+        padding-left: 40px;
+    }
+    #form-holder {
+        width: 50%;
+    }
+    .slider-headline {
+        display: none;
+        width: 75%;
+    }
+    .navbar-right .phone-span {
+        font-size: 19.5px;
+    }
+    .navbar-right a {
+        font-size: 32px;
+    }
+    #blog-content-holder {
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+    .blog-container h2 {
+        font-size: 26px;
+    }
+    .navbar-right .phone-span {
+        font-size: 19.5px;
+    }
+    .navbar-right a {
+        font-size: 32px;
+    }
+    #blog-content-holder {
+        padding-top: 60px;
+    }
+    #form-title {
+        font-size: 34px;
+    }
+    #form-sub-title {
+        font-size: 22px;
+    }
+    .slider-headline {
+        display: none;
+        width: 75%;
+    }
+}

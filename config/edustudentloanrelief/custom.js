@@ -1,0 +1,1 @@
+console.log('EduStudentLoanRelief custom js loaded');

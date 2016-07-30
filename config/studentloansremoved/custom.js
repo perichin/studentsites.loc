@@ -1,0 +1,1 @@
+console.log('StudentLoansRemoved custom js loaded');
