@@ -1,5 +1,9 @@
 <?php
 
+include('inc/session.php');
+$siteName = $_SERVER['SERVER_NAME'];
+include('./config/'.$siteName.'/inc/marketstreetleads.php');
+
 $payload = array(
     'is_test'       => '0',
     'ip_address'    => $_SERVER['REMOTE_ADDR']
@@ -8,6 +12,11 @@ $payload = array(
 foreach($_POST as $key => $value) {
     $payload[$key] = $value;
 }
+
+// echo '<pre>';
+// print_r($_SESSION);
+// print_r($payload);
+// die();
 
 $ch = curl_init('http://slc.adsolve.com/api.php');
 curl_setopt($ch, CURLOPT_POST, 1);

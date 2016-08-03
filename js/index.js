@@ -53,6 +53,26 @@ $(window).load(function() {
     }
 })
 
+$.validator.addMethod("validPhoneFirst", function (phone_number, element) {
+    phone_number_first = phone_number.substr(1,1);
+    return this.optional(element) || phone_number_first != 0 && phone_number_first != 1
+}, "Required");
+
+$.validator.addMethod("validPhoneLast4", function (phone_number, element) {
+   phone_number_first = phone_number.substr(phone_number.length -4);
+   return this.optional(element) || phone_number_first != "0000";
+}, "Required");
+
+$.validator.addMethod("validEmail", function (email, element) {
+    return this.optional(element) || email.match(/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$/);
+}, "Required");
+
+$.validator.addMethod("maskedPhone", function (phone_number, element) {
+    phone_number = phone_number.replace(/\s+/g, "");
+    return this.optional(element) || phone_number.length > 9 &&
+    phone_number.match(/^((\()?\d{3}(\))?(|\s)?\d{3}(-|\s)\d{4})|\(_{3}\) (_{3})(_{4})|\(\s{3}\) (\s{3})-(\s{4})|\(\) -$/);
+}, "Required");
+
 // form validation
 $('#student-form').validate({
     rules: {
@@ -64,10 +84,14 @@ $('#student-form').validate({
         },
         email: {
             required: true,
-            email: true
+            email: true,
+            validEmail: true
         },
         phone_home_visible: {
             required: true,
+            validPhoneFirst: true,
+            validPhoneLast4: true,
+            maskedPhone: true
         },
         zip: {
             required: true,

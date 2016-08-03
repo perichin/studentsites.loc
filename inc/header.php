@@ -42,9 +42,11 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Javascript and JQuery -->
+    <!-- Javascript Bootstrap JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Config -->
     <script src="js/config.js"></script>
 
     <?php $siteName = $_SERVER['SERVER_NAME']; ?>

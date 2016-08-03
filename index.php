@@ -1,3 +1,5 @@
+    <?php include('inc/session.php'); ?>
+    <?php include('inc/affil.php'); ?>
     <?php include('inc/header.php'); ?>
     <div class="jumbotron">
         <div class="container">

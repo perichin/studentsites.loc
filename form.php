@@ -1,7 +1,7 @@
 <div id="form-holder" class="col-sm-6 col-md-6 col-lg-5">
     <form id="student-form" method="post" action="process.php" novalidate="novalidate">
         <input name="universal_leadid" id="leadid_token" type="hidden" value=""/>
-        <input name="list_id" value="632" type="hidden">
+        <input name="list_id" id="list_id" value="" type="hidden">
         <input name="url" value="<?= $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] ?>" type="hidden">
         <h2 id="form-title" class="title hidden-xs">Start Here</h2>
         <h4 id="form-sub-title" class="title hidden-xs">Safe, Confidential and No Obligation</h4>

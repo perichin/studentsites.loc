@@ -58,6 +58,9 @@ $.getJSON('./config/' + siteName + '/' + 'config.json', function(data) {
     $('.disclaimer').html(data['tcpa']);
     $('.slider-headline').html(data['heading1'] + '<br /><span>' + data['heading2'] + '.</span>');
 
+    // form
+    $('#list_id').val(data['listId']);
+
     // privacy
     $('.alias-span').text(data['alias']);
 
