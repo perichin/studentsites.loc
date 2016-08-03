@@ -121,7 +121,7 @@
         <div class="row">
             <section id="submit-section" class="col-sm-12">
                 <div class="col-sm-12 form-group">
-                    <button type="submit" id="submit-form" class="btn btn-large">QUALIFY ME NOW</button>
+                    <button type="submit" id="submit-form" class="btn btn-large"></button>
                 </div>
                 <div id="lookingfor" class="" style="display:none;">
                     <img src="/img/ajax.gif" />

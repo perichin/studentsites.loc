@@ -1,12 +1,13 @@
 {
-    "listId": 632,
+    "listId": 000,
     "title": "Edu Student Loan Relief",
     "alias": "EduStudentLoanRelief.com",
     "abbr": "ESLR",
     "heading1": "GET HELP WITH YOUR STUDENT LOAN DEBT",
-    "heading2": "NOW",    
+    "heading2": "NOW",
+    "submitText": "Qualify Me Now",     
     "tcpa": "By clicking \"Qualify Me Now\" and submitting my contact information above, I give my written consent to be matched with the ESLR loan consulting service. I may receive calls and/or emails from ESLR regarding my student loans. ESLR will not sell or give any data to third-party providers for any other purposes. I understand that my consent to receive calls is not required in order to purchase property, goods or services. By submitting my information, I understand and agree to this <a href=\"privacy.php\" target=\"_blank\">Privacy Policy</a>.",
-    "address1": "3824 CEDAR SPRINGS RD #801-1423",
-    "address2": "DALLAS, TX 75219",
+    "address1": "",
+    "address2": "",
     "phone": "555-555-5555"
 }

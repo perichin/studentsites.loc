@@ -51,8 +51,9 @@ $.getJSON('./config/' + siteName + '/' + 'config.json', function(data) {
     $('.phone-link').attr('href', 'tel:' + data['phone']).append(data['phone']);
 
     // footer
-    $('#copyright').html("&copy; " + data['title'] + ' ' + year);
-    $('#address').text(data['title'] + " " + data['address1'] + " " + data['address2']);
+    $('#copyright').html("&copy; " + data['alias'] + ' ' + year);
+    // $('#address').text(data['title'] + " " + data['address1'] + " " + data['address2']);
+    $('#address').text(data['address1'] + " " + data['address2']);
     
     // index
     $('.disclaimer').html(data['tcpa']);
@@ -60,6 +61,7 @@ $.getJSON('./config/' + siteName + '/' + 'config.json', function(data) {
 
     // form
     $('#list_id').val(data['listId']);
+    $('#submit-form').text(data['submitText']);
 
     // privacy
     $('.alias-span').text(data['alias']);

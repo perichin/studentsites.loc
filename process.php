@@ -13,11 +13,6 @@ foreach($_POST as $key => $value) {
     $payload[$key] = $value;
 }
 
-// echo '<pre>';
-// print_r($_SESSION);
-// print_r($payload);
-// die();
-
 $ch = curl_init('http://slc.adsolve.com/api.php');
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);

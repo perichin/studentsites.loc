@@ -1,0 +1,28 @@
+site dynamic partials list
+
+phone #
+list_id
+universal lead_id
+google analytics
+facebook pixel
+yahoo pixel
+twitter universal website tag code
+marketstreetleads pixel code
+clickwerx adserver
+
+custom css
+custom js
+
+http://forgivemystudentloan.org/ + offer renamed into studentloanhelpdesk.com !!!
+
+http://studentloanliberator.com/
+http://modifymystudentloans.com/
+http://studentloanassistant.com/
+http://fixmystudentdebt.com/
+studentloansremoved.com
+studentloanfinances.com
+edustudentloanrelief.com
+
+!!!
+http://studentloanliberator.com/ leadID script commented out
+	http://studentloanhelpdesk.com/thank-you.php fb pixel different

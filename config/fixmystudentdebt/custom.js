@@ -1,0 +1,1 @@
+console.log('FixMyStudentDebt custom js loaded');

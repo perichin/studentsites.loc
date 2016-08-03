@@ -1,3 +1,4 @@
+<?php include('inc/session.php'); ?>
 <?php include( 'inc/header.php'); ?>
     <div class="container">
         <section id="ty-slider" class="hidden-xs">
@@ -24,7 +25,7 @@
                 <p id="thank-you-big">Borrowers with less than $7,500 in total student debt are unlikely to benefit from our premium consulting services.<br />
                 If you still believe you are a good candidate for loan consolidation, or if you have under-reported your debt amount, please call us at <a class="phone-link" href="tel:"></a> to speak to a specialist or take a look at these special offers for borrowers below:<br /><br />
 
-                <?php include('./config/'.$siteName.'/inc/ty-script.php'); ?>
+                <?php include('./config/'.$siteName.'/inc/clickwerx.php'); ?>
 
                 <?php
                     break;
