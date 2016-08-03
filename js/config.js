@@ -50,6 +50,11 @@ $.getJSON('./config/' + siteName + '/' + 'config.json', function(data) {
     $('#logo-txt-mobile').text(data['abbr']);
     $('.phone-link').attr('href', 'tel:' + data['phone']).append(data['phone']);
 
+    if(data['phone'] === ""){
+        $('#nav-phone').remove();
+        $('.phone-span').remove();
+    }
+
     // footer
     $('#copyright').html("&copy; " + data['alias'] + ' ' + year);
     // $('#address').text(data['title'] + " " + data['address1'] + " " + data['address2']);
