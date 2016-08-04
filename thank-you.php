@@ -61,17 +61,17 @@
     <?php include('./config/'.$siteName.'/inc/twitter.php'); ?>
 
     <!-- Facebook Pixel Code -->
-    <?php if($siteName != 'studentloanlhelpdesk') { ?>
+    <?php if($siteName != 'studentloanlhelpdesk'): ?>
         <script>
             fbq('track', "Lead");
         </script>
-    <?php } else{ ?>
+    <?php else: ?>
         <?php if($_SESSION['fire_fb_pixel'] == 'true'): ?>
         <script>
             fbq('track', "Lead");
         </script>
         <?php endif; ?>
-    <?php } ?>
+    <?php endif; ?>
 
     <!-- Redirect to awesomestudentloans -->
     <script type="text/javascript">

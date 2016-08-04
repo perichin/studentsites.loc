@@ -5,6 +5,7 @@
 
 	if($base_url != $siteUrl){
 		header('Location: '.$siteUrl);
+		die();
 	}
 
 	$aff_id  = $_GET['aff_id'];
@@ -187,7 +188,7 @@
 					<p>Even though this is the law of the land now, since it was an executive order you never know if these programs will be eliminated by the next President. Act now, and lock in these new payment plans before they are gone.</p>
 					<p><strong>Here's how:</strong></p>
 					<ul>
-						<li style="margin: 10px;">Click one of the links and visit Student Loan Help Desk<strong><br /></strong></li>
+						<li style="margin: 10px;">Click one of the links and visit Student Loan Help Desk</li>
 						<li style="margin: 10px;">Fill out a very short form, and then speak to an agent on the phone to qualify you for programs. No private info (Social Security #, etc) is required. Just your name and contact info!</li>
 					</ul>
 					<h2>Tap&nbsp;Your Debt Amount:</h2>
