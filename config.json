@@ -13,7 +13,7 @@
         "phone": "800-594-4430"
     },
     "studentloansremoved.com": {
-        "listId": 000,        
+        "listId": 0,        
         "title": "Student Loans Removed",
         "alias": "StudentLoansRemoved.com",
         "abbr": "SLR",
@@ -26,7 +26,7 @@
         "phone": "555-555-5555"
     },
     "studentloanfinances.com": {
-        "listId": 000,        
+        "listId": 0,        
         "title": "Student Loan Finances",
         "alias": "StudentLoanFinances.com",
         "abbr": "SLF",
@@ -39,7 +39,7 @@
         "phone": "555-555-5555"
     },
     "edustudentloanrelief.com": {
-        "listId": 000,        
+        "listId": 0,        
         "title": "Edu Student Loan Relief",
         "alias": "EduStudentLoanRelief.com",
         "abbr": "ESLR",
